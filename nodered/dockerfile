@@ -1,7 +1,0 @@
-FROM nodered/node-red:latest
-
-USER root
-
-RUN npm install @chirpstack/node-red-contrib-chirpstack
-
-USER node-red
